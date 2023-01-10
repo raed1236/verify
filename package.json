@@ -1,7 +1,7 @@
 {
   "name": "verify",
   "version": "0.1.0",
-  "homepage": "/",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "clsx": "^1.2.1",
@@ -17,12 +17,12 @@
   "scripts": {
     "start": "react-scripts --max_old_space_size=4096 start",
     "build": "react-scripts --max_old_space_size=4096 build",
-    "deploy": "node deploy.js",
     "build-deploy": "yarn build && yarn deploy",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "analyze-build": "react-scripts --max_old_space_size=4096 build --stats",
-    "analyze": "webpack-bundle-analyzer build/bundle-stats.json"
+    "analyze": "webpack-bundle-analyzer build/bundle-stats.json",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -66,6 +66,7 @@
     "@types/react-swipeable-views": "^0.13.1",
     "babel-plugin-named-exports-order": "^0.0.2",
     "cli-progress": "^3.8.2",
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.1",
     "node-ssh": "^11.1.1",
     "prop-types": "^15.8.1",
