@@ -9,3 +9,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     - Write in the console: ```npm i```
  - After installing the dependencies, write
     - ```npm start``` or ```npm run start```
+
+## [Verify here](https://faucetpayio.github.io/verify)
