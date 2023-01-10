@@ -136,3 +136,7 @@ select,
   max-width: calc(100vw - (#{$mainPadding} * 2));
   overflow: auto;
 }
+
+.error {
+  text-align: center;
+}

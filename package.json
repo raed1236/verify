@@ -1,7 +1,7 @@
 {
   "name": "verify",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "/verify",
   "private": true,
   "dependencies": {
     "clsx": "^1.2.1",
