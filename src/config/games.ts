@@ -1,20 +1,17 @@
 export const globalConfig = {
   mainSite: {
     link: "https://faucetpay.io/",
-    title: 'FaucetPay.io'
+    title: "FaucetPay.io",
   },
 
   crash: {
     clientSeed:
-      "000000000000000000024e7d959b851c98989f9b9bc9205b775fc0f930b4c2fc",
+      "00000000000000000003c83e80909b2dd4fe795828ad014fb5053b5e598d3812",
     seriesHash:
-      "6e8ded562ffe09fa0ef2a7b6c93cf0bc16195d882b5cc90ed6b61a5265ee2fb9",
-  },
+      "6f2860fd02aaa414a5e9bd518801bed060fb8baa20243c0fc37b96ecde9d449c",
 
-  fortune: {
-    clientSeed:
-      "00000000000000000000193048476f981a835cd00964b50043fb660f771dc2c3",
-    seriesHash:
-      "172cb498b3df5f017c3763b6685f8b8e972054ab5101075413b1fb9d1ca58b15",
+    bitcoinTalkLink:
+      "https://bitcointalk.org/index.php?topic=5255740.msg61602291#msg61602291",
+    bitcoinBlockSeed: "77221409:18",
   },
 };

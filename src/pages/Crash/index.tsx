@@ -58,20 +58,20 @@ const Crash = () => {
           </li>
           <li>
             In order to make sure that we don't choose a server seed in our
-            favour, we use a client seed which comes from a Bitcoin block
-            (711779) from the future. The block number is chosen before it is
-            mined, so we don't have any way to predict its hash. Every 4-5 years
-            (roughly), our hashes will exhaust and we will have another seeding
-            event to generate the new list of hashes and select a new Bitcoin
-            block in the future.
+            favour, we use a client seed which comes from a Bitcoin block (
+            {globalConfig.crash.bitcoinBlockSeed}) from the future. The block
+            number is chosen before it is mined, so we don't have any way to
+            predict its hash. Every 4-5 years (roughly), our hashes will exhaust
+            and we will have another seeding event to generate the new list of
+            hashes and select a new Bitcoin block in the future.
           </li>
         </ul>
 
         <p>
           The Bitcoin Block is chosen and referenced at a third-party forum such
-          as Bitcoin Talk. The link to our seeding event is as follows:{" "}
-          <a href="https://bitcointalk.org/index.php?topic=5255740.msg61543293#msg61543293">
-            https://bitcointalk.org/index.php?topic=5255740.msg61543293#msg61543293
+          as Bitcoin Talk. The link to our seeding event is as follows:
+          <a href={globalConfig.crash.bitcoinTalkLink}>
+            {globalConfig.crash.bitcoinTalkLink}
           </a>
         </p>
 
