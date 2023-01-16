@@ -12,6 +12,6 @@ export const globalConfig = {
 
     bitcoinTalkLink:
       "https://bitcointalk.org/index.php?topic=5255740.msg61602291#msg61602291",
-    bitcoinBlockSeed: "77221409:18",
+    bitcoinBlockSeed: "772214",
   },
 };
