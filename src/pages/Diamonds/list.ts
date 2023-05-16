@@ -1,11 +1,19 @@
-import _0 from "./diamonds/0.svg";
-import _1 from "./diamonds/1.svg";
-import _2 from "./diamonds/2.svg";
-import _3 from "./diamonds/3.svg";
-import _4 from "./diamonds/4.svg";
-import _5 from "./diamonds/5.svg";
-import _6 from "./diamonds/6.svg";
 
-import _default from "./diamonds/default.svg";
+import gold from "./crystals/gold.png";
+import blue from "./crystals/blue.png";
+import red from "./crystals/red.png";
+import pink from "./crystals/pink.png";
+import violet from "./crystals/violet.png";
+import green from "./crystals/green.png";
+import dark_blue from "./crystals/darkBlue.png";
 
-export const diamondsList = [_0, _1, _2, _3, _4, _5, _6, _default];
+export const diamondsList = [
+  gold,       //0
+  blue,       //1
+  red,        //2
+  pink,       //3
+  violet,     //4
+  green,      //5
+  dark_blue,  //6
+  pink,       //default
+];

@@ -4,9 +4,9 @@ export const pagesList = [
   { name: "Plinko", link: "/plinko" },
   { name: "Limbo", link: "/limbo" },
   { name: "Roulette", link: "/roulette" },
+  { name: "diamonds", link: "/diamonds" },
 
   // { name: "video poker", link: "/video-poker" },
-  // { name: "diamonds", link: "/diamonds" },
   // { name: "blackjack", link: "/blackjack" },
   // { name: "keno", link: "/keno" },
   // { name: "mines", link: "/mines" },
