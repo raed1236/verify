@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Checking, Field, Input, PageTemplate } from "components";
 import { calculateTowers } from "calculates";
-
-import fish from "./towers/fish.svg";
-import vomit from "./towers/vomit.svg";
 import { repeat } from "utils";
+
+import win from "./towers/crystal.png";
+import loss from "./towers/bomb.png";
 
 export type TowersDifficulty = "easy" | "medium" | "wicked" | "hard" | "brutal";
 /*** true -- fish
@@ -127,7 +127,7 @@ const Towers = () => {
                   <div className="line">
                     {v.map((is) => (
                       <img
-                        src={is ? fish : vomit}
+                        src={is ? win : loss}
                         alt="cell"
                         className="towerCell"
                       />

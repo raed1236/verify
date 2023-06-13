@@ -8,6 +8,7 @@ const Plinko = lazyLoad(() => import("pages/Plinko"));
 const Limbo = lazyLoad(() => import("pages/Limbo"));
 const Roulette = lazyLoad(() => import("pages/Roulette"));
 const Diamonds = lazyLoad(() => import("pages/Diamonds"));
+const Towers = lazyLoad(() => import("pages/Towers"));
 
 const _404 = lazyLoad(() => import("pages/404"));
 
@@ -50,6 +51,12 @@ export const routes: PagesRoute = {
     diamonds: {
       data: {
         component: Diamonds,
+      },
+    },
+
+    towers: {
+      data: {
+        component: Towers,
       },
     },
   },
