@@ -6,11 +6,11 @@ export const pagesList = [
   { name: "Roulette", link: "/roulette" },
   { name: "diamonds", link: "/diamonds" },
   { name: "towers", link: "/towers" },
+  { name: "mines", link: "/mines" },
 
   // { name: "video poker", link: "/video-poker" },
   // { name: "blackjack", link: "/blackjack" },
   // { name: "keno", link: "/keno" },
-  // { name: "mines", link: "/mines" },
   // { name: "fortune quest", link: "/fortune-quest" },
   // { name: "lottery", link: "/lottery" },
 ];

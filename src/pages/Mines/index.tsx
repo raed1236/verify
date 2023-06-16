@@ -2,8 +2,8 @@ import { useState } from "react";
 import { Checking, Field, Input, PageTemplate } from "components";
 import { calculateMines } from "calculates";
 
-import diamond from "./assets/diamond.svg";
-import bomb from "./assets/bomb.svg";
+import diamond from "./assets/crystal.png";
+import bomb from "./assets/mine.png";
 import { repeat } from "utils";
 
 const maxMinesAmount = 24;
