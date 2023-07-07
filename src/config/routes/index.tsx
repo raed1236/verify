@@ -10,6 +10,7 @@ const Roulette = lazyLoad(() => import("pages/Roulette"));
 const Diamonds = lazyLoad(() => import("pages/Diamonds"));
 const Towers = lazyLoad(() => import("pages/Towers"));
 const Mines = lazyLoad(() => import("pages/Mines"));
+const Blackjack = lazyLoad(() => import("pages/BlackJack"));
 
 const _404 = lazyLoad(() => import("pages/404"));
 
@@ -64,6 +65,12 @@ export const routes: PagesRoute = {
     mines: {
       data: {
         component: Mines,
+      },
+    },
+
+    blackjack: {
+      data: {
+        component: Blackjack,
       },
     },
   },

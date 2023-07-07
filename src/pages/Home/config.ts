@@ -8,8 +8,8 @@ export const pagesList = [
   { name: "towers", link: "/towers" },
   { name: "mines", link: "/mines" },
 
+  { name: "blackjack", link: "/blackjack" },
   // { name: "video poker", link: "/video-poker" },
-  // { name: "blackjack", link: "/blackjack" },
   // { name: "keno", link: "/keno" },
   // { name: "fortune quest", link: "/fortune-quest" },
   // { name: "lottery", link: "/lottery" },
